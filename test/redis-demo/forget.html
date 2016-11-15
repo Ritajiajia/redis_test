@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>redis的忘记密码页面</title>
+</head>
+<body>
+    <h1>忘记密码：</h1>
+    <form action="forget.php" method="post">
+        <p>
+            <label for="email">邮箱：</label>
+            <input type="text" name="email" id="email" />
+        </p>
+        <p>
+            <label for="password">密码：</label>
+            <input type="text" name="password" id="password" />
+        </p>
+        <p>
+            <label for="code">验证码：</label>
+            <input type="text" name="code" id="code"/>
+        </p>
+        <button type="submit">提交</button>
+    </form>
+</body>
+</html>
